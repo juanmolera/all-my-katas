@@ -5,7 +5,6 @@ A pangram is a sentence that contains every single letter of the alphabet at lea
 Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
 
 ## Test examples:
-```console
-"The quick, brown fox jumps over the lazy dog!" -> True
-"1bcdefghijklmnopqrstuvwxyz" -> False
-```
+
+`"The quick, brown fox jumps over the lazy dog!" -> True`
+`1bcdefghijklmnopqrstuvwxyz" -> False`
