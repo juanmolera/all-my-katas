@@ -16,7 +16,7 @@ Create a function that takes in a list of button inputs and returns the final st
 
 `like_or_dislike([Dislike, Like]) ➞ Like`
 
-`like_or_dislike([Like, Dislike, Dislike]) ➞ Nothing
+`like_or_dislike([Like, Dislike, Dislike]) ➞ Nothing`
 
 ## Notes
 
