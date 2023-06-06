@@ -7,11 +7,11 @@ Given a point in a Euclidean plane (x and y), return the quadrant the point exis
 ## Examples
 
 ```
-(1, 2)     => 1
-(3, 5)     => 1
-(-10, 100) => 2
-(-1, -9)   => 3
-(19, -56)  => 4
+(1, 2)     -> 1
+(3, 5)     -> 1
+(-10, 100) -> 2
+(-1, -9)   -> 3
+(19, -56)  -> 4
 ```
 
 ## Reference
