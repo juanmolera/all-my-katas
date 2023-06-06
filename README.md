@@ -1,7 +1,7 @@
 # all-my-katas
 
-this is the repo with all my solutions to katas from Codewars®     
+this is the repo with all my solutions to Katas from Codewars®     
 
-here it is my current profile [badge][badges]
+here is my current profile [badge][badges]
 
 [badges]: https://www.codewars.com/users/juanmolera/badges/large
