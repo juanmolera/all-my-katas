@@ -32,4 +32,4 @@ More on quadrants: [Quadrant (plane geometry)][Quadrant]
 `FUNDAMENTALS` `MATHEMATICS` `GEOMETRY`
 
 
-[Quadrant]: [https://en.wikipedia.org/wiki/Quadrant_(plane_geometry)]
+[Quadrant]: https://en.wikipedia.org/wiki/Quadrant_(plane_geometry)
