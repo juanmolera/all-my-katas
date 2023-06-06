@@ -2,4 +2,6 @@
 
 this is the repo with all my solutions to katas from Codewars®     
 
-currently i'm: [badges]: https://www.codewars.com/users/juanmolera/badges/large
+currently i'm: [badge][badges]
+
+[badges]: https://www.codewars.com/users/juanmolera/badges/large
