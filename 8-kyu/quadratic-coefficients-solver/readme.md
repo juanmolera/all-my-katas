@@ -8,7 +8,7 @@ Return type is a Vector (tuple in Rust, Array in Ruby) containing coefficients o
 
 Since there are infinitely many solutions to this problem, we fix `a = 1`.
 
-Remember, the roots can be written like `(x-x1) * (x-x2) = 0
+Remember, the roots can be written like `(x-x1) * (x-x2) = 0`
 
 ## Test example
 
