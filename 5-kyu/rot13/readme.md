@@ -14,4 +14,4 @@ For this task you're only supposed to substitute characters. Not spaces, punctua
 
 `"This is my first ROT13 excercise!" -> "Guvf vf zl svefg EBG13 rkprepvfr!"`
 
-[ROT13wiki] : https://en.wikipedia.org/wiki/ROT13
+[ROT13wiki]: https://en.wikipedia.org/wiki/ROT13
