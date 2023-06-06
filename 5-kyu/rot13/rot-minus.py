@@ -1,7 +1,5 @@
 from string import ascii_lowercase, ascii_uppercase, punctuation
 
-# 0-12, 13-26, 27-39, 40-53
-
 def rot13(message):
     pass
 
