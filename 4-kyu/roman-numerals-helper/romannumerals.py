@@ -28,3 +28,13 @@ class RomanNumerals:
         return 0
 '''
 
+# entra int para el val y str para el roman_num
+
+# de valor a roman:
+
+mil = None
+cien = None
+diez = None
+uno  = None
+
+val = 2345
