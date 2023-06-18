@@ -32,9 +32,19 @@ class RomanNumerals:
 
 # de valor a roman:
 
-mil = None
-cien = None
-diez = None
-uno  = None
-
 val = 2345
+roman = ''
+
+lista = []
+
+for v in str(val):
+
+    lista.append(v)
+
+print(lista)
+
+tamaño = len(lista)
+
+if tamaño == 4:
+    
+    roman += 'M' * int(lista[0])
