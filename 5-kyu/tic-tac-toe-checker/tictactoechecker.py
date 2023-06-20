@@ -1,92 +1,106 @@
-# 0 draw
-# 1 X
-# 2 O
-# -1 not finished, empty spots
-
 import numpy as np
 
-'''
-board = [[0, 0, 1],
-        [0, 1, 2],
-        [2, 1, 0]]
-'''
+def is_solved(board):
 
-board = [[2, 1, 1],
-        [2, 1, 1],
-        [1, 1, 2]]
-
-count = 0
-aux = 0
-
-# -1
-
-for row in board:
-
-    last = row[0]
-
-    for element in row:
-
-        # killea si 0
-        if not element:
-
-            print('board con 0')
-            #return '-1'
-            break
-        
-        # killea si soluciona por row
-        if element != last:
-
-            break
-        
-        # coincidentes por row
-        else:
-
-            count += 1
-
-    # win si 3 en row
-    if count == 3:
-
-        print('gana por row')
-        #return '1'
-        #return '2'
-        break
-    
-    # limpia cuenta por row
     count = 0
+    aux = 0
 
-# la traspongo y le corro el mismo alg anterior
+    for row in board:
 
-traspuesta = np.array(board).T.tolist()
+        last = row[0]
 
-for row in traspuesta:
+        for element in row:
 
-    last = row[0]
+            # break si no soluciona por esa row y pasa a la siguiente
+            if element != last:
 
-    for element in row:
+                break
+
+            # coincidentes por row
+            else:
+
+                count += 1
+
+        # win si 3 en row
+        if count == 3:
+
+            if row[-1] == 1:
+
+                return 1 # X
+
+            elif row[-1] == 2:
+
+                return 2 # O
+            
+            else:
+                
+                pass
+
+
+        # limpia cuenta por row
+        count = 0
+
+    # la traspongo y le corro el mismo alg anterior
+
+    traspuesta = np.array(board).T.tolist()
+
+    for row in traspuesta:
+
+        last = row[0]
+
+        for element in row:
+
+            # killea si soluciona por row
+            if element != last:
+
+                break
+
+            # coincidentes por col
+            else:
+
+                count += 1
+
+        # win si 3 en col
+        if count == 3:
+
+            if row[-1] == 1:
+
+                return 1 # X
+
+            elif row[-1] == 2:
+
+                return 2 # O
+            
+            else:
+                
+                pass
+
+        # limpia cuenta por row
+        count = 0
+
+    # diagonales
+
+    if board[1][1] == board[0][0] and board[1][1] == board[2][2] or board[1][1] == board[0][2] and board[1][1] == board[2][0]:
+
+        if board[1][1] == 1:
+
+            return 1 # X
+
+        elif board[1][1] != 0:
+
+            return 2 # O
         
-        # killea si soluciona por row
-        if element != last:
-
-            break
-        
-        # coincidentes por row
         else:
+            
+            pass
+            
 
-            count += 1
+    for row in board:
 
-    # win si 3 en row
-    if count == 3:
+        for element in row:
 
-        print('gana por col')
-        #return '1'
-        #return '2'
-        break
-    
-    # limpia cuenta por row
-    count = 0
+            if not element:
 
-# diagonales
+                return -1 # not finished
 
-if board[1][1] == board[0][0] and board[1][1] == board[2][2] or board[1][1] == board[0][2] and board[1][1] == board[2][0]:
-
-    print('gana por diagonal')
+    return 0 # draw
