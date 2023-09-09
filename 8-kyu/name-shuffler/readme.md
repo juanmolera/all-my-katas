@@ -4,6 +4,8 @@ Write a function that returns a string in which firstname is swapped with last n
 
 ## Example
 
-`"john McClane" --> "McClane john"`
+```python
+"john McClane" --> "McClane john"
+```
 
 `STRINGS` `FUNDAMENTALS`

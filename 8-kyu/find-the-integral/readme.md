@@ -14,7 +14,7 @@ For example for `3x^2`, the integral would be `1x^3`: we added 1 to the exponent
 
 ## Examples
 
-```
+```python
 3, 2  -->  "1x^3"
 12, 5  -->  "2x^6"
 20, 1  -->  "10x^2"

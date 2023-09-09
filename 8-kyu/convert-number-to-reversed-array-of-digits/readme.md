@@ -6,9 +6,11 @@ Given a random non-negative number, you have to return the digits of this number
 
 ## Example:
 
-`35231 -> [1,3,2,5,3]`
+```python
+35231 -> [1,3,2,5,3]
 
-`0 -> [0]`
+0 -> [0]
+```
 
 
 `ARRAYS` `FUNDAMENTALS`

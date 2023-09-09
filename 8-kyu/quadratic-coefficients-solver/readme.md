@@ -12,13 +12,17 @@ Remember, the roots can be written like `(x-x1) * (x-x2) = 0`
 
 ## Test example
 
-`quadratic(1,2) = (1, -3, 2)`
+```python
+quadratic(1,2) = (1, -3, 2)
+```
 
 This means `(x-1) * (x-2) = 0`; when we do the multiplication this becomes `x^2 - 3x + 2 = 0`
 
 ## Example 2
 
-`quadratic(0,1) = (1, -1, 0)`
+```python
+quadratic(0,1) = (1, -1, 0)
+```
 
 This means `(x-0) * (x-1) = 0`; when we do the multiplication this becomes `x^2 - x + 0 = 0`
 

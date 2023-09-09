@@ -6,7 +6,7 @@ Given a point in a Euclidean plane (x and y), return the quadrant the point exis
 
 ## Examples
 
-```
+```pythons
 (1, 2)     -> 1
 (3, 5)     -> 1
 (-10, 100) -> 2
