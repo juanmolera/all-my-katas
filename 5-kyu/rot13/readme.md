@@ -10,8 +10,12 @@ For this task you're only supposed to substitute characters. Not spaces, punctua
 
 ## Test examples:
 
-`"EBG13 rknzcyr." -> "ROT13 example."`
+```python
+"EBG13 rknzcyr." -> "ROT13 example."
+```
 
-`"This is my first ROT13 excercise!" -> "Guvf vf zl svefg EBG13 rkprepvfr!"`
+```python
+"This is my first ROT13 excercise!" -> "Guvf vf zl svefg EBG13 rkprepvfr!"
+```
 
 [ROT13wiki]: https://en.wikipedia.org/wiki/ROT13

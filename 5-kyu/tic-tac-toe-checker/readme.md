@@ -4,7 +4,7 @@ If we were to set up a Tic-Tac-Toe game, we would want to know whether the board
 
 Assume that the board comes in the form of a 3x3 array, where the value is `0` if a spot is empty, `1` if it is an "X", or `2` if it is an "O", like so:
 
-```
+```python
 [[0, 0, 1],
  [0, 1, 2],
  [2, 1, 0]]
