@@ -11,5 +11,5 @@ Given a string, detect whether or not it is a pangram. Return True if it is, Fal
 ```
 
 ```python
-1bcdefghijklmnopqrstuvwxyz" -> False
+"1bcdefghijklmnopqrstuvwxyz" -> False
 ```
