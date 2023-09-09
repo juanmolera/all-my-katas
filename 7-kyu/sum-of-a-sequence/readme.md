@@ -8,7 +8,7 @@ If begin value is greater than the end, your function should return 0. If end is
 
 ## Test examples
 
-```
+```python
 2,2,2 --> 2
 
 2,6,2 --> 12 (2 + 4 + 6)

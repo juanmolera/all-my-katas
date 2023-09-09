@@ -12,8 +12,14 @@ Note: for this kata y isn't considered a vowel.
 
 ## Test examples:
 
-`"This website is for losers LOL!" -> "Ths wbst s fr lsrs LL!"`
+```python
+"This website is for losers LOL!" -> "Ths wbst s fr lsrs LL!"
+```
 
-`"No offense but,\nYour writing is among the worst I've ever read" -> "N ffns bt,\nYr wrtng s mng th wrst 'v vr rd"`
+```python
+"No offense but,\nYour writing is among the worst I've ever read" -> "N ffns bt,\nYr wrtng s mng th wrst 'v vr rd"
+```
 
-`"What are you, a communist?" -> "Wht r y,  cmmnst?"`
+```python
+"What are you, a communist?" -> "Wht r y,  cmmnst?"
+```

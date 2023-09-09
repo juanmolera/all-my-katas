@@ -10,13 +10,21 @@ Create a function that takes in a list of button inputs and returns the final st
 
 ## Test examples
 
-`like_or_dislike([Dislike]) ➞ Dislike`
+```python
+like_or_dislike([Dislike]) ➞ Dislike
+```
 
-`like_or_dislike([Like, Like]) ➞ Nothing`
+```python
+like_or_dislike([Like, Like]) ➞ Nothing
+```
 
-`like_or_dislike([Dislike, Like]) ➞ Like`
+```python
+like_or_dislike([Dislike, Like]) ➞ Like
+```
 
-`like_or_dislike([Like, Dislike, Dislike]) ➞ Nothing`
+```python
+like_or_dislike([Like, Dislike, Dislike]) ➞ Nothing
+```
 
 ## Notes
 
