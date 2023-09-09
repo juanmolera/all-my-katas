@@ -8,17 +8,19 @@ Create a method to see whether the string is ALL CAPS.
 
 ## Examples (input -> output)
 
-`"c" -> False`
+```python
+"c" -> False
 
-`"C" -> True`
+"C" -> True
 
-`"hello I AM DONALD" -> False`
+"hello I AM DONALD" -> False
 
-`"HELLO I AM DONALD" -> True`
+"HELLO I AM DONALD" -> True
 
-`"ACSKLDFJSgSKLDFJSKLDFJ" -> False`
+"ACSKLDFJSgSKLDFJSKLDFJ" -> False
 
-`"ACSKLDFJSGSKLDFJSKLDFJ" -> True`
+"ACSKLDFJSGSKLDFJSKLDFJ" -> True
+```
 
 In this Kata, a string is said to be in ALL CAPS whenever it does not contain any lowercase letter so any string containing no letters at all is trivially considered to be in ALL CAPS.
 
